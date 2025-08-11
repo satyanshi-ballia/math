@@ -1,0 +1,60 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fffcf2;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fef6e4;
+  border: 3px dashed #ff9b85;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #ff5d8f;
+}
+
+.question-box {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff9b85;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5d8f;
+}
+
+.score-box {
+  margin-top: 20px;
+}
+
+#feedback {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}

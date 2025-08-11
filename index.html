@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Fun for Kids!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Math Fun for Kids 🎉</h1>
+    <div class="question-box">
+      <h2 id="question">What is 1 + 1?</h2>
+      <input type="number" id="answer" placeholder="Your answer">
+      <button onclick="checkAnswer()">Submit</button>
+      <p id="feedback"></p>
+    </div>
+    <div class="score-box">
+      <p>✅ Correct: <span id="score">0</span></p>
+      <button onclick="generateQuestion()">Next Question</button>
+      <button onclick="resetGame()">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
